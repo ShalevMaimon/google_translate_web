@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# React Translation Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application allows users to translate selected text into multiple languages using the Google Translate API. The application features a context menu for language selection, displays translations with word counts, and highlights selected text.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Text Selection**: Users can select text in the textarea.
+- **Context Menu**: Right-click on the selected text to choose a target language from a context menu.
+- **Translations**: View translations for the selected text in various languages.
+- **Word Count**: Displays word count for the selected text alongside translations.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1. Clone the Repository
 
-### `npm test`
+First, clone the repository to your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/your-username/react-translation-app.git
+cd react-translation-app
+```
 
-### `npm run build`
+### 2. Install Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the project dependencies using npm or yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or
 
-### `npm run eject`
+```bash
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. Configure API Keys
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Obtain an API key for Google Translate from [RapidAPI](https://rapidapi.com). Create a `.env` file in the root directory of your project and add your API key:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+REACT_APP_GOOGLE_TRANSLATE_API_KEY=your-rapidapi-key
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Replace `your-rapidapi-key` with your actual API key.
 
-## Learn More
+## Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Start the Development Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the development server and view the application locally, use:
+
+```bash
+npm start
+```
+
+or
+
+```bash
+yarn start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000) in your web browser.
+
+### 2. Build for Production
+
+To create a production build of the application, use:
+
+```bash
+npm run build
+```
+
+or
+
+```bash
+yarn build
+```
+
+This command generates a `build` directory with the production-ready files.
+
+## Application Structure
+
+- `src/`: Source code for the application
+  - `App.tsx`: Main application component
+  - `components/`: Contains reusable components like `TextInput`, `ContextMenu`, and `TranslationList`
+  - `translateService.ts`: Functions for interacting with the Google Translate API
+  - `App.css`: Styling for the application
