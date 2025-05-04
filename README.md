@@ -13,7 +13,7 @@ This React application allows users to translate selected text into multiple lan
 
 Here are some screenshots of the application in action:
 
-![Screenshot 1](google-translate-app/src/p1.PNG)
+![Screenshot 1](src/p1.PNG)
 
 ![Screenshot 2](path/to/your/screenshot2.png)
 *Description of Screenshot 2.*
