@@ -1,88 +1,30 @@
-# React Translation Application
+# React Translation Application ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-This React application allows users to translate selected text into multiple languages using the Google Translate API. The application features a context menu for language selection, displays translations with word counts, and highlights selected text.
+This React application allows users to translate selected text into multiple languages using the Google Translate API. The app provides a seamless user experience with a context menu for language selection, displays translations with word counts, and highlights the selected text.
 
-## Features
+## Features ✨
 
-- **Text Selection**: Users can select text in the textarea.
-- **Context Menu**: Right-click on the selected text to choose a target language from a context menu.
-- **Translations**: View translations for the selected text in various languages.
-- **Word Count**: Displays word count for the selected text alongside translations.
+- **Text Selection**: Users can select text within a textarea.
+- **Context Menu**: Right-click on the selected text to choose a target language from the context menu.
+- **Translations**: View translations of the selected text in various languages.
+- **Word Count**: Displays word count for the selected text along with the translations.
 
+## Screenshots 📸
 
-## Installation
+Here are some screenshots of the application in action:
+
+![Screenshot 1](path/to/your/screenshot1.png)
+*Description of Screenshot 1.*
+
+![Screenshot 2](path/to/your/screenshot2.png)
+*Description of Screenshot 2.*
+
+## Installation 🛠️
 
 ### 1. Clone the Repository
 
-First, clone the repository to your local machine:
+Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/your-username/react-translation-app.git
 cd react-translation-app
-```
-
-### 2. Install Dependencies
-
-Install the project dependencies using npm or yarn:
-
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn install
-```
-
-### 3. Configure API Keys
-
-Obtain an API key for Google Translate from [RapidAPI](https://rapidapi.com). Create a `.env` file in the root directory of your project and add your API key:
-
-```bash
-REACT_APP_GOOGLE_TRANSLATE_API_KEY=your-rapidapi-key
-```
-
-Replace `your-rapidapi-key` with your actual API key.
-
-## Running the Application
-
-### 1. Start the Development Server
-
-To run the development server and view the application locally, use:
-
-```bash
-npm start
-```
-
-or
-
-```bash
-yarn start
-```
-
-The application will be available at [http://localhost:3000](http://localhost:3000) in your web browser.
-
-### 2. Build for Production
-
-To create a production build of the application, use:
-
-```bash
-npm run build
-```
-
-or
-
-```bash
-yarn build
-```
-
-This command generates a `build` directory with the production-ready files.
-
-## Application Structure
-
-- `src/`: Source code for the application
-  - `App.tsx`: Main application component
-  - `components/`: Contains reusable components like `TextInput`, `ContextMenu`, and `TranslationList`
-  - `translateService.ts`: Functions for interacting with the Google Translate API
-  - `App.css`: Styling for the application
