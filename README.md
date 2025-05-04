@@ -34,10 +34,3 @@ A visual guide for translating text on a website:
 
 ---
 
-## Installation 🛠️
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/react-translation-app.git
-cd react-translation-app
