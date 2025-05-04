@@ -11,12 +11,16 @@ This React application allows users to translate selected text into multiple lan
 
 ## Screenshots 📸
 
-Here are some screenshots of the application in action:
+A visual guide for translating text on a website:
 
 ![Screenshot 1](src/p1.PNG)
+*Writing the text in the box.*
 
-![Screenshot 2](path/to/your/screenshot2.png)
-*Description of Screenshot 2.*
+![Screenshot 2](src/p2.PNG)
+*Select text to translate and right-click to select the language.*
+
+![Screenshot 3](src/p3.PNG)
+*Translating text into a variety of languages.*
 
 ## Installation 🛠️
 
