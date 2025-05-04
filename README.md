@@ -13,8 +13,7 @@ This React application allows users to translate selected text into multiple lan
 
 Here are some screenshots of the application in action:
 
-![Screenshot 1](path/to/your/screenshot1.png)
-*Description of Screenshot 1.*
+![Screenshot 1](src/p1.png)
 
 ![Screenshot 2](path/to/your/screenshot2.png)
 *Description of Screenshot 2.*
